@@ -7,12 +7,20 @@
    multilinhas 
    (bloco de comentário) */ 
 
-/* include inclui bibliotecas (para usar determinada função, precisamos incluir
-sua respectiva biblioteca)
+/*
+  A diretiva que começa com #, instrui ao pré-processador para incluir código
+  no código-fonte. Antes de um código-fonte ser compilado ele é pré-processado,
+  ele é interpretado, fazendo a inclusão no cabeçalho o que for indicado.
 
-A diretiva que começa com #, instrui ao pré-processador para incluir código
-no código-fonte. Antes de um código-fonte ser compilado ele é pré-processado, 
-ele é interpretado, fazendo a inclusão no cabeçalho o que for indicado.
+  include inclui bibliotecas (para se usar determinada função, precisamos 
+  incluir sua respectiva biblioteca)
+
+  outra definição de pré-processamento é a diretiva 
+  
+    #define identifier replacement // não tem ; ao final
+
+  esse diretiva define que determinado identificador (identifier) vai ser 
+  substituído pelo valor replacement em todo ocorrência de identifer no programa
 */
 
 // a biblioteca iostream é quase sempre usada, porque trabalha com entrada e 
