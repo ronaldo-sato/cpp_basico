@@ -4,7 +4,7 @@
 
 // bool: booleano; em geral utiliza 1 byte da memória para True (1) ou False (0)
 
-// char: caractere; e,m geral utiliza 1 byte da memória para armazenar um 
+// char: caractere; em geral utiliza 1 byte da memória para armazenar um 
 // caractere; (string armazena cadeia de caracteres, mas usando estrutura de 
 // vetores é possível armazenar uma cadeia de caracteres com char também)
 
@@ -24,7 +24,8 @@ using namespace std;
 
 /* Todos os elementos da bilioteca padrão são declarados no que é chamado de 
 namespace dando visibilidade aos seus componentes no programa, dessa forma, 
-podemos usar esses elementos sem a declaração explícita */
+podemos usar esses elementos sem a declaração explícita de que estamos usando 
+da biblioteca padrão */
 
 int main(){
 
@@ -69,7 +70,7 @@ int main(){
 
   double realXG = 1.5e309;
 
-  cout << "Variavel: realG=" << realG << endl; // também imprime "inf", já que
+  cout << "Variavel: realXG=" << realXG << endl; // também imprime "inf", já que
   // o valor atribuído é maior que o tipo pode armazenar
 
   bool booleano = true;
