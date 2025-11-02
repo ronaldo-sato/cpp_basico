@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
 
     /* Um array de caracteres pode ser armazenado da seguinte forma */
